@@ -1,0 +1,148 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;800&family=Rubik&display=swap");
+body {
+  background-color: #eff5f5;
+  margin-top: 5%;
+}
+.admin-form {
+  display: flex;
+  justify-content: center;
+}
+.upload-files_labe {
+  font-size: 38px;
+  font-weight: 500;
+  font-family: "Poppins";
+  margin-top: 20px;
+}
+.upload-files {
+  display: flex;
+  justify-content: center;
+}
+.fileinput {
+  margin-top: 20px;
+}
+.fileinput {
+  display: none;
+}
+.filelabel {
+  width: 180px;
+  height: 80px;
+  background-color: #0d4c92;
+  display: block;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  border-radius: 10px 20px 10px 20px;
+}
+.upload-text {
+  font-size: 33px;
+  font-family: "Poppins";
+  font-weight: 900;
+  color: #fff;
+  cursor: pointer;
+}
+.ulpoad-submitt {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.upload-wrapper {
+  display: flex;
+}
+.upload-btn {
+  background-color: #a0e4cb;
+  width: 180px;
+  height: 80px;
+  display: block;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  border-radius: 10px 20px 10px 20px;
+  border: none;
+  font-size: 33px;
+  font-family: "Poppins";
+  font-weight: 900;
+  color: #000;
+  cursor: pointer;
+}
+/*A0E4CB*/
+.chosefile_section {
+  width: 600px;
+  border-radius: 10px 10px 10px;
+  border: 3px solid black;
+  padding: 10px;
+  font-family: "Poppins";
+}
+.chosefile_section-wrapp {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+.activefile {
+  color: #ababab;
+}
+.buffer {
+  width: 10px;
+  display: block;
+}
+.edit_section {
+  width: 600px;
+}
+.edit_section_wrapp {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+.deletebtn {
+  height: 50px;
+  width: 130px;
+  font-size: 25px;
+  color: white;
+  background-color: tomato;
+  border-radius: 40px;
+  font-weight: 400;
+  cursor: pointer;
+  border: 3px solid black;
+}
+.changefilesection_wrapper {
+  display: flex;
+  justify-content: center;
+}
+.linkswrapper {
+  text-align: center;
+  margin-top: 0;
+}
+#filename {
+  height: 48px;
+  border: 2px solid #e1e2e5;
+  border-radius: 48px;
+  text-align: center;
+  font-size: 25px;
+  margin-right: 5px;
+}
+#filename::placeholder {
+  font-weight: bold;
+  opacity: 0.5;
+  font-size: 25px;
+}
+.changefile-section {
+  padding: 10px;
+}
+#changefile {
+  background-color: #0693cd;
+  border: 0;
+  border-radius: 8px;
+  cursor: pointer;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 1.4;
+  padding: 10px;
+  width: 180px;
+}
+.changedate_helper {
+  font-size: 22px;
+  font-weight: bold;
+  font-family: "Poppins";
+}
